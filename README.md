@@ -1,4 +1,4 @@
-# USA
+# United States of America
 Készítő: Nagy Noel
 Készítés dátuma: 2020.10.13 -
 
