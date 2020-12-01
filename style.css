@@ -13,7 +13,7 @@ h1{
     font-size: 50px;
 }
 
-h1, h2, h3{
+h1, h2, h3, a{
     font-family: 'Merriweather', serif;
     font-weight: bold;
 }
@@ -23,13 +23,20 @@ h2{
     text-align: center;
 }
 
-h3, i{
+h3, i, a{
     color: #154285;
+}
+
+h3, i{
     display: inline;
 }
 
 i{
     padding-right: 5px;
+}
+
+a{
+    text-decoration: none;
 }
 
 hr{
