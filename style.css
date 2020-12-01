@@ -1,0 +1,37 @@
+/*import*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+/*Globale*/
+body{
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+h1, h2, h3{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+h2{
+    color: #C61F0C;
+    text-align: center;
+}
+
+h3, i{
+    color: #154285;
+    display: inline;
+}
+
+hr{
+    border-color: #11385B;
+}
+
+.content{
+    margin: 10px 10%;
+}
