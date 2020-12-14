@@ -93,6 +93,30 @@ p{
     z-index: 2;
 }
 
+/*Top Nav*/
+nav{
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    border-bottom: 1px solid #aeb0b5;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    padding: 0px;
+}
+
+nav li{
+    display: inline;
+}
+
+nav li a{
+    display: inline-block;
+    padding: 15px;
+    background-color: white;
+}
+
 /*Footer*/
 
 .footer{
