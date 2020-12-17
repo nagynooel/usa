@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap');
 
 /*Global*/
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #fff;
     margin: 0px;

@@ -24,3 +24,8 @@
 .reasons{
     display: flex;
 }
+
+/*Why container*/
+.why_content p{
+    text-align: justify;
+}
