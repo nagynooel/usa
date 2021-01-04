@@ -143,3 +143,46 @@ nav ul li a:hover{
     transform: translate(-50%, -50%);
     font-weight: bold;
 }
+
+/*Table*/
+table, td, th{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: auto;
+    margin: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+table tr td:nth-child(2){
+    text-align: right;
+}
+
+table caption{
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*trimgl -- text right image left*/
+.trimgl{
+    width: 100%;
+    padding: 2px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+}
+
+.trimgl p{
+    object-fit: contain;
+    padding: 20px;
+    text-align: justify;
+}
+
+.trimgl img{
+    width: auto;
+    float: right;
+    max-height: 300px;
+    flex: 1 1 auto;
+}
