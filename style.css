@@ -44,6 +44,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color: #0abfe7;
+}
+
 hr{
     border-color: #11385B;
 }
