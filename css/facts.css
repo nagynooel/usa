@@ -14,7 +14,7 @@
 .cities .city div{
     width: 70%;
     text-align: justify;
-    padding: 5px;
+    padding: 5px 25px;
 }
 
 .cities .city-right{
