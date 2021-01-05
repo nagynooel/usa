@@ -1,0 +1,33 @@
+/*Constitution page css*/
+/*Sidebar*/
+
+.sidebar{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    float:left;
+    width:15%;
+    overflow:hidden;
+    height: 100%;
+}
+
+.sidebar p{
+    margin-top: 0;
+    color: #154285;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: bold;
+}
+
+.const_wrapper ol{
+    float:left;
+    width:85%;
+    overflow:hidden;
+}
+
+.const_wrapper{
+    display: flex;
+}
+
+.content ol dd{
+    text-align: justify;
+}
