@@ -28,6 +28,13 @@
     display: flex;
 }
 
-.content ol dd{
+/*List*/
+
+ol li{
+    font-weight: bold;
+}
+
+ol dd{
+    margin-left: 10px;
     text-align: justify;
 }
