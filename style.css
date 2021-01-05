@@ -149,9 +149,13 @@ table, td, th{
     border: 1px solid black;
 }
 
+table td, table th{
+    padding: 5px;
+}
+
 table{
     border-collapse: collapse;
-    width: auto;
+    width: 60%;
     margin: auto;
     font-family: 'Source Sans Pro', sans-serif;
 }
