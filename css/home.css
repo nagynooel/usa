@@ -28,7 +28,26 @@
     display: flex;
 }
 
+/*Sidebar responsive*/
+@media (max-width: 1000px){
+    .sidebar{
+        position: relative;
+        float: none;
+        display: none;
+    }
+
+    .why_cont{
+        float: none;
+        width:100%;
+    }
+
+    .reasons{
+        display: block;
+    }
+}
+
 /*Why container*/
 .why_content p{
     text-align: justify;
 }
+

@@ -28,6 +28,21 @@
     display: flex;
 }
 
+/*Sidebar responsive*/
+@media (max-width: 1350px){
+    .sidebar{
+        display: none;
+    }
+
+    .const_wrapper ol{
+        float: none;
+    }
+
+    .const_wrapper{
+        display: block;
+    }
+}
+
 /*List*/
 
 ol li{
