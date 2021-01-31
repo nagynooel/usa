@@ -7,16 +7,24 @@
     <link rel="stylesheet" href="./fontawesome/css/all.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/home.css">
+    <script src="main.js"></script>
 </head>
 <body>
+    <div id="respnav" class="respnav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Kezdőlap</a>
+        <a href="erdekessegek.html">Tudnivalók, érdekességek</a>
+        <a href="alkotmany.html">Alkotmány</a>
+    </div>
     <div class="header">
         <div class="img_cont">
-            <img class="flag" src="img/flag.jpg" alt="Amerikai zászló" width="40">
+            <img id="flag" class="flag" src="img/flag.jpg" alt="Amerikai zászló" width="40">
             <img class="header_img" src="img/header.jpg" alt="Fehérház">
             <div class="overlay"></div>
             <h1 class="page_title">Amerikai Egyesült Államok</h1>
         </div>
     </div>
+    <span class="openMenu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
     <nav class="top_nav">
         <ul>
             <li><a href="index.html">Kezdőlap</a></li>
