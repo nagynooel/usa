@@ -7,20 +7,48 @@
     clear: both;
 }
 
-.cities .city-right, .cities .city-right h3{
+.cities .city-right, .cities .city-right h3, .cities-resp .city-right, .cities-resp .city-right h3{
     color: white;
 }
 
-.cities .city div{
+.cities .city div, .cities-resp .city div{
     width: 70%;
     text-align: justify;
     padding: 5px 25px;
 }
 
-.cities .city-right{
+.cities .city-right, .cities-resp .city-right{
     background-color: rgb(17,56,91);
 }
 
-.cities .city-left, .cities .city-left h3{
+.cities .city-left, .cities .city-left h3, .cities-resp .city-left, .cities-resp .city-left h3{
     color: black;
+}
+
+.cities-resp img{
+    width: 70%;
+}
+
+.cities-resp{
+    text-align: center;
+}
+
+.cities-resp{
+    display: none;
+}
+
+.cities-resp div{
+    margin: auto;
+    padding-top: 10px;
+}
+
+
+
+@media(max-width: 1000px){
+    .cities{
+        display: none;
+    }
+    .cities-resp{
+        display: block;
+    }
 }

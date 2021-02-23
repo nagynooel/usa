@@ -262,3 +262,19 @@ table caption{
     max-height: 300px;
     flex: 1 1 auto;
 }
+
+@media(max-width: 1180px){
+    .trimgl{
+        display: block;
+    }
+    .trimgl img{
+        width: 100%;
+        max-height: none;
+    }
+}
+
+@media(max-width: 780px){
+    table{
+        width: 100%;
+    }
+}
