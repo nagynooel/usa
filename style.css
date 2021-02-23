@@ -278,3 +278,23 @@ table caption{
         width: 100%;
     }
 }
+
+/*Back to top*/
+#btt{
+    display: inline-block;
+    margin-right: -100px;
+    position: absolute;
+    bottom: 55px;
+    right: 0px;
+    position: fixed;
+    background: #e8f0f7;
+    border-radius: 25px 0 0 25px;
+    background-image: url(img/Icon_Back_to_Top_Blue.png);
+    background-size: 40px;
+    background-position: 2px;
+    background-repeat: no-repeat;
+    padding: 0 0 0 50px;
+    line-height: 40px;
+    text-align: center;
+    transition: margin-right 0.5s;
+}
