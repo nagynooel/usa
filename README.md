@@ -1,6 +1,6 @@
 # Amerikai Egyesült Államok
 Készítő: Nagy Noel<br/>
-Készítés dátuma: 2020.10.13 -
+Készítés dátuma: 2020.10.13 - 2021.02.27
 
 Ez a projekt egy iskolai feladatként készül.
 Ezen a weblapon érdekességeket szeretnék mutatni az Amerikai Egyesült Államokról.
@@ -8,7 +8,7 @@ De miért is az USA? Azért mert nekem ez az ország tetszik a legjobban és itt
 
 # United States of America
 Creator: Noel Nagy<br/>
-Date of Creation: 10.13.2020 -
+Date of Creation: 10.13.2020 - 02.27.2021
 
 This is a school project.
 On this website I would like to show you fun facts about the United States of America.
